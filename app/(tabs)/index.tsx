@@ -603,9 +603,9 @@ const styles = StyleSheet.create({
   // Header
   header: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
-    paddingHorizontal: 20, paddingVertical: 14, backgroundColor: COLORS.white,
-    elevation: 2, shadowColor: '#000', shadowOpacity: 0.06,
-    shadowRadius: 4, shadowOffset: { width: 0, height: 2 },
+    paddingHorizontal: 25, backgroundColor: 'transparent', paddingTop: 30, paddingBottom: 10,
+    elevation: 0, shadowColor: 'transparent', shadowOpacity: 0,
+    shadowRadius: 0, shadowOffset: { width: 0, height: 0 },
   },
   logoRow: { flexDirection: 'row', alignItems: 'center' },
   logoIcon: {
