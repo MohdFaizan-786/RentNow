@@ -603,7 +603,7 @@ const styles = StyleSheet.create({
   // Header
   header: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
-    paddingHorizontal: 20, paddingVertical: 14, backgroundColor: COLORS.white,
+    paddingHorizontal: 20, paddingVertical: 28, backgroundColor: COLORS.white,
     elevation: 2, shadowColor: '#000', shadowOpacity: 0.06,
     shadowRadius: 4, shadowOffset: { width: 0, height: 2 },
   },
