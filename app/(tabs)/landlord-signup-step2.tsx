@@ -42,12 +42,16 @@ export default function LandlordSignupStep2() {
           <Text style={styles.backText}>← Back</Text>
         </TouchableOpacity>
 
-        <View style={styles.logoRow}>
+        <TouchableOpacity
+          style={styles.logoRow}
+          onPress={() => router.replace('/(tabs)' as any)}
+          activeOpacity={0.8}
+        >
           <View style={styles.logoIcon}>
             <Text style={styles.logoIconText}>⌂</Text>
           </View>
           <Text style={styles.logoText}>Rent Now</Text>
-        </View>
+        </TouchableOpacity>
 
         <View style={styles.stepRow}>
           <View style={styles.stepDone}><Text style={styles.stepDoneText}>✓</Text></View>
